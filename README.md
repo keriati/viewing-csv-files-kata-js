@@ -19,3 +19,7 @@ or
 or
 
     npm run test:coverage
+    
+## CodeScene
+
+[![](https://codescene.io/projects/4178/status.svg) Get more details at **codescene.io**.](https://codescene.io/projects/4178/jobs/latest-successful/results)
