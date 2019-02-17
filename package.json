@@ -1,0 +1,19 @@
+{
+  "name": "csv-reader",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node -r babel-register app.js test-data.csv 9",
+    "test": "jest",
+    "test:coverage": "jest --coverage"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-module-resolver": "^3.2.0",
+    "babel-preset-env": "^1.7.0",
+    "jest": "^24.1.0"
+  },
+  "jest": {
+    "verbose": true
+  }
+}
