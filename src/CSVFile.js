@@ -12,10 +12,10 @@ export class CSVFile {
     parseContent(csvLines) {
         const content = csvLines.slice(1);
 
-        this.content = content.map(this.parseConentLine);
+        this.content = content.map(this.parseContentLine);
     }
 
-    parseConentLine(line) {
+    parseContentLine(line) {
         return line.split(';');
     }
 
